@@ -1,8 +1,8 @@
-# Site of Coriolan UI on Gatsby
+# Site of Irk on Gatsby
 
-### front-end concept
+### Psychedelic Electronica Music
 
-Web development of Coriolan UI site
+Web development of Irk site
 
 ### Run
 
@@ -21,5 +21,7 @@ After that just copy all from 'build' folder into root of `master` (or `gh-pages
 JavaScript library - [ReactJS](https://facebook.github.io/react)
 
 Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
+
+Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
