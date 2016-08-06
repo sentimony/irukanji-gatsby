@@ -1,0 +1,15 @@
+siteTitle = 'Irk'
+siteDescr = 'Psychedelic Electronica Music'
+
+siteBandcampUrl = 'https://irukanji.bandcamp.com'
+siteFbUrl = 'https://www.facebook.com/irukanji.music'
+siteGithubUrl = 'https://github.com/irukanji-music'
+siteSoundcloudUrl = 'https://soundcloud.com/irukanji-music'
+siteDiscogsUrl = 'http://www.discogs.com/artist/1375976-Irukanji'
+siteTwitterUrl = 'https://twitter.com/irukanji_music'
+siteGoogleplusUrl = ''
+
+poweredUrl = 'http://ihororlovskyi.com'
+poweredTitle = 'Ihor Orlovskyi'
+
+linkPrefix = ''

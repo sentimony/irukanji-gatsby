@@ -1,0 +1,49 @@
+// Selection colors
+$selection-color: rgba(#fb4b33,.5);
+
+::selection {
+    background: $selection-color;
+}
+
+::-moz-selection {
+    background: $selection-color;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: $selection-color;
+}
+
+// Base
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font: 400 16px/1.4 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 0 1em;
+}
+
+.index {
+
+}
