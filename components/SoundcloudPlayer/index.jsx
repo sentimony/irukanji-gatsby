@@ -9,7 +9,7 @@ import './style.scss'
 
 class Player extends React.Component {
     render() {
-        let { track } = this.props;
+        let { track, currentTime } = this.props;
 
         return (
             <div className='soundcloud-player'>
