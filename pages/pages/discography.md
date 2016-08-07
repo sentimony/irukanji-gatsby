@@ -1,6 +1,6 @@
 ---
 title: 'Discography'
-layout: post
+layout: Discography
 path: '/discography/'
 
 ---

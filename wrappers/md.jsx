@@ -1,9 +1,8 @@
 import React from 'react'
 import DocumentTitle from 'react-document-title'
-import SitePost from '../components/SitePost'
-import SitePage from '../components/SitePage'
+import ReleasePage from '../components/ReleasePage'
 import HomePage from '../components/HomePage'
-import MixinList from '../components/MixinList'
+import ReleaseList from '../components/ReleaseList'
 import MainMenu from '../components/MainMenu'
 import Footer from '../components/Footer'
 import { config } from 'config'
@@ -18,14 +17,12 @@ class MarkdownWrapper extends React.Component {
 
         layout = post.layout
 
-        if (layout === 'post') {
-            template = <SitePost {...this.props}/>
-        } else if (layout === 'page') {
-            template = <SitePage {...this.props}/>
-        } else if (layout === 'home') {
-            template = <HomePage {...this.props}/>
-        } else if (layout === 'MixinList') {
-            template = <MixinList {...this.props}/>
+        if (layout === 'ReleasePage') {
+            template = <ReleasePage {...this.props} />
+        } else if (layout === 'Discography') {
+            template = <ReleaseList {...this.props} />
+        } else if (layout === 'HomePage') {
+            template = <HomePage {...this.props} />
         }
 
         return (
@@ -33,7 +30,9 @@ class MarkdownWrapper extends React.Component {
                 <div className='flex-sticky'>
                     <div className='flex-sticky__content'>
                         <MainMenu {...this.props}/>
-                        { template }
+                        <div className='main-container'>
+                            { template }
+                        </div>
                     </div>
                     <Footer {...this.props}/>
                 </div>

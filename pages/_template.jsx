@@ -7,7 +7,7 @@ class Template extends React.Component {
         const {location, children} = this.props
 
         return (
-            <span>
+            <span className='template'>
                 { children }
             </span>
         );

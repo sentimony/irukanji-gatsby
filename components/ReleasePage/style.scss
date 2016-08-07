@@ -1,13 +1,13 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
-$sidebarWidth: 180px;
+$sidebarWidth: 280px;
 
-.post {
-    padding: 30px 10px;
-    max-width: 666px;
-    margin: 0 auto;
+.release-page {
+    // padding: 30px 10px;
+    // max-width: 777px;
+    // margin: 0 auto;
+    // text-align: left;
     @include clearfix;
-    text-align: left;
 
     &__title {
         float: left;
@@ -18,12 +18,12 @@ $sidebarWidth: 180px;
         overflow: hidden;
         float: left;
         width: $sidebarWidth;
-        position: fixed;
+        // position: fixed;
     }
 
     &__content {
         float: left;
         width: calc(100% - #{$sidebarWidth});
-        margin-left: $sidebarWidth;
+        // margin-left: $sidebarWidth;
     }
 }
