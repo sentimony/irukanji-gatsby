@@ -6,6 +6,7 @@ import ReleaseList from '../components/ReleaseList'
 import MainMenu from '../components/MainMenu'
 import Footer from '../components/Footer'
 import { config } from 'config'
+import SoundcloudPlayer from '../components/SoundcloudPlayer'
 
 import './style.scss'
 
@@ -29,12 +30,13 @@ class MarkdownWrapper extends React.Component {
             <DocumentTitle title={ `${post.title} • ${config.siteTitle}` }>
                 <div className='flex-sticky'>
                     <div className='flex-sticky__content'>
-                        <MainMenu {...this.props}/>
+                        <MainMenu {...this.props} />
                         <div className='main-container'>
+                            <SoundcloudPlayer />
                             { template }
                         </div>
                     </div>
-                    <Footer {...this.props}/>
+                    <Footer {...this.props} />
                 </div>
             </DocumentTitle>
         );

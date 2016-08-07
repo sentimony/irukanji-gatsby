@@ -1,6 +1,6 @@
 # Site of Irk on Gatsby
 
-### Psychedelic Electronica Music
+### Psychedelic Electronica
 
 Web development of Irk site
 

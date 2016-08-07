@@ -6,6 +6,7 @@ import Ink from 'react-ink'
 
 import './style.scss'
 import logoIrk from '../../static/img/logo/deer.svg'
+import iconDiscography from '../../static/img/svg-icons/discogs.svg'
 import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
 import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 import iconSoundcloud from '../../static/img/svg-icons/soundcloud.svg'
@@ -21,14 +22,15 @@ class MainMenu extends React.Component {
             <div className='mainmenu'>
                 <div className='mainmenu__container'>
 
-                    <Link to={ prefixLink('/')} className='mainmenu__link' activeClassName='is-selected' onlyActiveOnIndex>
+                    <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
                         <img className='mainmenu__svglogo' src={ prefixLink(logoIrk) }/>
-                        { config.siteTitle }
+                        <span className='mainmenu__link-name'>{ config.siteTitle }</span>
                         <Ink />
                     </Link>
 
                     <Link to={ prefixLink('/discography/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/discography/')) == 0 || location.pathname.indexOf(prefixLink('/release/')) == 0 ? 'is-selected' : '' }`}>
-                        Discography
+                        <img className='mainmenu__svgicon' src={ prefixLink(iconDiscography) }/>
+                        <span className='mainmenu__link-name'>Discography</span>
                         <Ink />
                     </Link> 
 
@@ -55,6 +57,7 @@ class MainMenu extends React.Component {
                     </div>
 
                 </div>
+
             </div>
         );
     }
