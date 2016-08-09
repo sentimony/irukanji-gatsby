@@ -22,7 +22,6 @@ class MainMenu extends React.Component {
             <div className='mainmenu'>
                 <div className='mainmenu__container'>
 
-
                     <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
                         <img className='mainmenu__svglogo' src={ prefixLink(logoIrk) }/>
                         <span className='mainmenu__link-name'>{ config.siteTitle }</span>
