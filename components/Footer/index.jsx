@@ -1,9 +1,9 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
-import Ink from 'react-ink'
 import { config } from 'config'
 
 import './style.scss'
+import iconEagle from '../../static/img/svg-icons/native-american-eagle.svg'
 
 class Footer extends React.Component {
     render() {
@@ -13,13 +13,13 @@ class Footer extends React.Component {
 
         return (
             <div className='footer'>
-                <div className='footer__copyright'>
-                    2008 - 2016 © { config.siteTitle }
-                    <br />
-                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll/' target='_blank'>old site version</a>
-                </div>
+                <div className='footer__copyright'>2008 - 2016 © { config.siteTitle }</div>
                 <div className='footer__powered'>
-                    Powered by <a href={ config.poweredUrl } className='footer__powered-link' target='_blank'>{ config.poweredTitle }</a>
+                    Powered by
+                    <a href={ config.poweredUrl } className='footer__powered-link'>
+                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
+                        <span className='footer__powered-fx'>{ config.poweredTitle }</span>
+                    </a>
                 </div>
             </div>
         );

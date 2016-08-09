@@ -51,11 +51,25 @@ $XL: 1300px;
         cursor: pointer;
         height: 8px;
         // margin-bottom: 8px;
+        overflow: hidden;
     }
 
     .sb-soundplayer-progress-inner {
-        background: #8ff;
+        background: rgba(#fff,.05);
         height: 100%;
         transition: width .25s ease;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: 0;
+            bottom: -2px;
+            // height: 150%;
+            width: 1px;
+            background: #8ff;
+            // margin-bottom: -4px;
+        }
     }
 }

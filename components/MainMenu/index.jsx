@@ -5,8 +5,9 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import logoIrk from '../../static/img/logo/deer.svg'
-import iconDiscography from '../../static/img/svg-icons/discogs.svg'
+import logoIrkNew from '../../static/img/svg-icons/deer2.svg'
+import logoIrkOld from '../../static/img/svg-icons/deer1.svg'
+import iconDiscography from '../../static/img/svg-icons/kokopelli.svg'
 import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
 import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 import iconSoundcloud from '../../static/img/svg-icons/soundcloud.svg'
@@ -23,33 +24,41 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__container'>
 
                     <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
-                        <img className='mainmenu__svglogo' src={ prefixLink(logoIrk) }/>
+                        <img className='mainmenu__link-svg' src={ prefixLink(logoIrkNew) }/>
                         <span className='mainmenu__link-name'>{ config.siteTitle }</span>
                         <Ink />
                     </Link>
 
+                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll' className='mainmenu__link'>
+                        <img className='mainmenu__link-svg' src={ prefixLink(logoIrkOld) }/>
+                        <span className='mainmenu__link-name'>Old Site</span>
+                        <Ink />
+                    </a>
+
                     <Link to={ prefixLink('/discography/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/discography/')) == 0 || location.pathname.indexOf(prefixLink('/release/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__svgicon' src={ prefixLink(iconDiscography) }/>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
                         <span className='mainmenu__link-name'>Discography</span>
                         <Ink />
                     </Link> 
 
-                    <div style={{float:'right'}}>
+                    <div className='mainmenu__social-nav'>
 
-                        <a className='mainmenu__link' href={ config.siteBandcampUrl } target='_blank'>
-                            <img className='mainmenu__svgicon' src={ prefixLink(iconBandcamp) }/>
+                        <span className='mainmenu__join'>Join</span>
+
+                        <a href={ config.siteBandcampUrl } className='mainmenu__link'>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconBandcamp) }/>
                             <span className='mainmenu__link-name'>bandcamp</span>
                             <Ink />
                         </a>
 
-                        <a className='mainmenu__link' href={ config.siteSoundcloudUrl } target='_blank'>
-                            <img className='mainmenu__svgicon' src={ prefixLink(iconSoundcloud) }/>
+                        <a href={ config.siteSoundcloudUrl } className='mainmenu__link'>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconSoundcloud) }/>
                             <span className='mainmenu__link-name'>soundcloud</span>
                             <Ink />
                         </a>
 
-                        <a className='mainmenu__link' href={ config.siteFacebookUrl } target='_blank'>
-                            <img className='mainmenu__svgicon' src={ prefixLink(iconFacebook) }/>
+                        <a href={ config.siteFacebookUrl } className='mainmenu__link'>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
                             <span className='mainmenu__link-name'>facebook</span>
                             <Ink />
                         </a>

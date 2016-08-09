@@ -22,7 +22,7 @@ $mainmenu__link-selected--height: 4px;
     }
 
     &__link {
-        padding: 10px 14px;
+        padding: 10px 16px;
         // display: inline-block;
         line-height: 30px;
         // font-size: 16px;
@@ -73,37 +73,58 @@ $mainmenu__link-selected--height: 4px;
             font-family: 'Montserrat', sans-serif;
         }
 
-        // &--social {
-        //     float: right;
-        // }
+        .mainmenu__social-nav & {
+            padding: 10px 6px;
+        }
     }
 
-    &__svglogo {
+    &__social-nav {
+        float: right;
+    }
+
+    &__join {
+        padding: 10px 14px;
+        line-height: 30px;
+        float: left;
+        font-size: 10px;
+        display: none;
+
+        @include media(M) {
+            display: block;
+        }
+    }
+
+    &__link-svg {
         float: left;
         width: auto;
         height: 30px;
         vertical-align: middle;
-    }
 
-    &__svgicon {
-        float: left;
-        width: auto;
-        height: 30px;
-        box-sizing: border-box;
-        padding: 5px 0 3px;
-        vertical-align: middle;
+        .mainmenu__social-nav & {
+            box-sizing: border-box;
+            padding: 6px 0 4px;
+        }
     }
 
     &__link-name {
         line-height: 30px;
         vertical-align: middle;
-        font-size: 10px;
-        margin-left: 8px;
+        margin-left: 10px;
+        float: left;
         display: none;
+        font-size: 14px;
+
+        .mainmenu__social-nav & {
+            font-size: 0;
+            transition: font-size .25s ease;
+        }
+
+        .mainmenu__link:hover .mainmenu__social-nav & {
+            font-size: 10px;
+        }
 
         @include media(M) {
             display: inline-block;
-            // font-size: 12px;
         }
     }
 }

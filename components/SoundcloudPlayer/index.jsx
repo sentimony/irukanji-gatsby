@@ -16,7 +16,7 @@ class Player extends React.Component {
                 <PlayButton {...this.props} />
                 <div style={{float:'right',textAlign:'right'}}>
                     <div className='soundcloud-player__track-name'>{track ? track.title : 'Loading...'}</div>
-                    <Timer currentTime={currentTime} duration={305086 / 1000} {...this.props} />
+                    <Timer currentTime={currentTime} duration={305086 / 1000} />
                 </div>
                 <Progress {...this.props} />
             </div>
