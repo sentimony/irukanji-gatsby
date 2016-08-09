@@ -14,6 +14,8 @@ $mainmenu__link-selected--height: 4px;
     width: 100%;
     z-index: 1000;
     background: rgba(#222,1);
+    padding: 0 10px;
+    box-sizing: border-box;
 
     &__container {
         max-width: 999px;
@@ -34,6 +36,9 @@ $mainmenu__link-selected--height: 4px;
         position: relative;
         float: left;
         opacity: .5;
+        // min-width: 40px;
+        // box-sizing: border-box;
+        // text-align: center;
 
         &:after {
             content: '';
@@ -71,10 +76,12 @@ $mainmenu__link-selected--height: 4px;
 
         &--logo {
             font-family: 'Montserrat', sans-serif;
+            font-family: monospace;
+            letter-spacing: .2em;
         }
 
         .mainmenu__social-nav & {
-            padding: 10px 6px;
+            padding: 10px 8px;
         }
     }
 
@@ -102,25 +109,27 @@ $mainmenu__link-selected--height: 4px;
 
         .mainmenu__social-nav & {
             box-sizing: border-box;
-            padding: 6px 0 4px;
+            padding: 5px 0 4px;
         }
     }
 
     &__link-name {
         line-height: 30px;
         vertical-align: middle;
-        margin-left: 10px;
+        margin-left: 1em;
         float: left;
         display: none;
         font-size: 14px;
 
         .mainmenu__social-nav & {
             font-size: 0;
-            transition: font-size .25s ease;
+            opacity: 0;
+            transition: font-size .25s ease, opacity .25s ease .25s;
         }
 
-        .mainmenu__link:hover .mainmenu__social-nav & {
+        .mainmenu__social-nav .mainmenu__link:hover & {
             font-size: 10px;
+            opacity: 1;
         }
 
         @include media(M) {

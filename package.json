@@ -26,6 +26,7 @@
     "react-ink": "^5.1.1",
     "react-router": "^2.4.0",
     "react-soundplayer": "^0.3.6",
+    "react-svg-morph": "^0.1.10",
     "safe-access": "^0.1.0",
     "underscore.string": "^3.2.3"
   },
