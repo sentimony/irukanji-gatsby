@@ -22,12 +22,14 @@ $XL: 1300px;
         display: block;
         text-decoration: none;
         outline: none;
-        max-width: 240px;
         padding: 12px;
-        width: 100%;
+        // max-width: 240px;
+        // width: 100%;
+        width: 200px;
         height: auto;
-        padding: 0 20px;
-        box-sizing: border-box;
+        padding: 0;
+        // padding: 0 20px;
+        // box-sizing: border-box;
     }
 
     &__title {

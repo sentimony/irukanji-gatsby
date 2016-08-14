@@ -52,7 +52,7 @@ class HomePage extends React.Component {
 
         return (
             <div className='homepage'>
-                <MorphReplaceResize className='homepage__logo' width={280} height={280} rotation={'none'}>
+                <MorphReplaceResize className='homepage__logo' width={200} height={200} rotation={'none'}>
                     {icon}
                 </MorphReplaceResize>
 
