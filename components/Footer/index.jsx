@@ -15,8 +15,8 @@ class Footer extends React.Component {
             <div className='footer'>
                 <div className='footer__copyright'>2008 - 2016 © { config.siteTitle }</div>
                 <div className='footer__powered'>
-                    Powered by
-                    <a href={ config.poweredUrl } className='footer__powered-link'>
+                    Web development by
+                    <a href={ config.poweredUrl } className='footer__powered-link' target='_blank'>
                         <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
                         <span className='footer__powered-fx'>{ config.poweredTitle }</span>
                     </a>

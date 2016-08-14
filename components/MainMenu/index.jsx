@@ -29,38 +29,34 @@ class MainMenu extends React.Component {
                         <Ink />
                     </Link>
 
-                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll' className='mainmenu__link'>
-                        <img className='mainmenu__link-svg' src={ prefixLink(logoIrkOld) }/>
-                        <span className='mainmenu__link-name'>Old Site</span>
-                        <Ink />
-                    </a>
-
                     <Link to={ prefixLink('/discography/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/discography/')) == 0 || location.pathname.indexOf(prefixLink('/release/')) == 0 ? 'is-selected' : '' }`}>
                         <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
                         <span className='mainmenu__link-name'>Discography</span>
                         <Ink />
                     </Link> 
 
+                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll' className='mainmenu__link' target='_blank'>
+                        <img className='mainmenu__link-svg' src={ prefixLink(logoIrkOld) }/>
+                        <span className='mainmenu__link-name'>Old Site</span>
+                    </a>
+
                     <div className='mainmenu__social-nav'>
 
                         <span className='mainmenu__join'>Follow</span>
 
-                        <a href={ config.siteBandcampUrl } className='mainmenu__link'>
+                        <a href={ config.siteBandcampUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconBandcamp) }/>
                             <span className='mainmenu__link-name'>bandcamp</span>
-                            <Ink />
                         </a>
 
-                        <a href={ config.siteSoundcloudUrl } className='mainmenu__link'>
+                        <a href={ config.siteSoundcloudUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconSoundcloud) }/>
                             <span className='mainmenu__link-name'>soundcloud</span>
-                            <Ink />
                         </a>
 
-                        <a href={ config.siteFacebookUrl } className='mainmenu__link'>
+                        <a href={ config.siteFacebookUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
                             <span className='mainmenu__link-name'>facebook</span>
-                            <Ink />
                         </a>
 
                     </div>

@@ -6,7 +6,8 @@ import ReleaseList from '../components/ReleaseList'
 import MainMenu from '../components/MainMenu'
 import Footer from '../components/Footer'
 import { config } from 'config'
-import SoundcloudPlayer from '../components/SoundcloudPlayer'
+// import SoundcloudPlayer from '../components/SoundcloudPlayer'
+import MixcloudPlayer from '../components/MixcloudPlayer'
 
 import './style.scss'
 
@@ -32,11 +33,11 @@ class MarkdownWrapper extends React.Component {
                     <div className='flex-sticky__content'>
                         <MainMenu {...this.props} />
                         <div className='main-container'>
-                            <SoundcloudPlayer />
                             { template }
                         </div>
                     </div>
                     <Footer {...this.props} />
+                    <MixcloudPlayer {...this.props} />
                 </div>
             </DocumentTitle>
         );
