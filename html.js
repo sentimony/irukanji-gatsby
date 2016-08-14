@@ -2,9 +2,9 @@ import React from 'react'
 import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 
-import favicon32 from './static/img/favicons/favicon-32.png'
-import favicon144 from './static/img/favicons/favicon-144.png'
-import ogImage from './static/img/og-images/home.jpg'
+import favicon32 from './assets/img/favicons/favicon-32.png'
+import favicon144 from './assets/img/favicons/favicon-144.png'
+import ogImage from './assets/img/og-images/home.jpg'
 
 const BUILD_TIME = new Date().getTime()
 

@@ -35,7 +35,7 @@ $mainmenu__link-selected--height: 4px;
         // font-weight: 700;
         position: relative;
         float: left;
-        opacity: .5;
+        opacity: .6;
         // min-width: 40px;
         // box-sizing: border-box;
         // text-align: center;
@@ -108,8 +108,8 @@ $mainmenu__link-selected--height: 4px;
         vertical-align: middle;
 
         .mainmenu__social-nav & {
+            padding: 4px 0;
             box-sizing: border-box;
-            padding: 5px 0 4px;
         }
     }
 
