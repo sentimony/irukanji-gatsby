@@ -22,6 +22,6 @@ JavaScript library - [ReactJS](https://facebook.github.io/react)
 
 Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
 
-Front-end philosophy - [Coriolan UI](https://coriolan-ui.github.io)
+Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
