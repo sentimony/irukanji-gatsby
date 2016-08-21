@@ -3,7 +3,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
 import './style.scss'
-import iconEagle from '../../assets/img/svg-icons/native-american-eagle.svg'
+import iconEagle from '../../static/img/svg-icons/native-american-eagle.svg'
 
 class Footer extends React.Component {
     render() {

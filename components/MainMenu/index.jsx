@@ -5,13 +5,13 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import logoIrkNew from '../../assets/img/svg-icons/deer2.svg'
-import logoIrkOld from '../../assets/img/svg-icons/deer1.svg'
-import iconDiscography from '../../assets/img/svg-icons/kokopelli.svg'
-import iconBandcamp from '../../assets/img/svg-icons/bandcamp.svg'
-import iconFacebook from '../../assets/img/svg-icons/facebook.svg'
-import iconSoundcloud from '../../assets/img/svg-icons/soundcloud.svg'
-import iconGithub from '../../assets/img/svg-icons/github.svg'
+import logoIrkNew from '../../static/img/svg-icons/deer2.svg'
+import logoIrkOld from '../../static/img/svg-icons/deer1.svg'
+import iconDiscography from '../../static/img/svg-icons/kokopelli.svg'
+import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
+import iconFacebook from '../../static/img/svg-icons/facebook.svg'
+import iconSoundcloud from '../../static/img/svg-icons/soundcloud.svg'
+import iconGithub from '../../static/img/svg-icons/github.svg'
 
 class MainMenu extends React.Component {
     render() {

@@ -13,8 +13,8 @@ import BandCamp from '../SVG/BandCamp';
 import Facebook from '../SVG/Facebook';
 
 import './style.scss'
-import logoIrkNew from '../../assets/img/svg-icons/deer2.svg'
-import logoIrkOld from '../../assets/img/svg-icons/deer1.svg'
+import logoIrkNew from '../../static/img/svg-icons/deer2.svg'
+import logoIrkOld from '../../static/img/svg-icons/deer1.svg'
 
 class HomePage extends React.Component {
     constructor(props) {
