@@ -1,16 +1,13 @@
 ---
-id: 001
+id: 1
 title: VA «Fantazma»
 layout: ReleasePage
 category: discography
 path: '/release/va-fantazma/'
+key: va-fantazma
 
 meta: VA - Fantazma by Sentimony Records
 keywords: VA Fantazma, Sentimony Records
-
-og-image: releases/va-fantazma-og.jpg
-
-release-id: va-fantazma
 
 label: Sentimony Records
 ektoplazm: free-music/fantazma
@@ -41,8 +38,3 @@ Tracklis:
 09. Solcast - Cheiook [80bpm]
 10. Ader Project - Serotonin [100bpm]
 11. Sphingida - Outside [64bpm]
-
-
-
-
-

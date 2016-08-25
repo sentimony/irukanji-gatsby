@@ -1,16 +1,13 @@
 ---
-id: 020
+id: 20
 title: VA «Audio Elastique»
 layout: ReleasePage
 category: discography
 path: '/release/va-audio-elastique/'
+key: va-audio-elastique
 
 meta: VA - Audio Elastique by Another Dimension Music
 keywords: VA Audio Elastique, Another Dimension Music
-
-og-image: releases/va-audio-elastique-og.jpg
-
-release-id: va-audio-elastique
 
 label: Another Dimension Music
 ektoplazm: 

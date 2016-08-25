@@ -15,11 +15,13 @@ class MixinList extends React.Component {
         sortedPages.forEach((page) => {
             if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'discography') {
                 const id = access(page, 'data.id') || page.path
+                const key = access(page, 'data.key') || page.path
                 const title = access(page, 'data.title') || page.path
 
                 pageLinks.push(
-                    <li key={ id }>
+                    <li key={ key }>
                         <Link to={ prefixLink(page.path) } className='release-list__link' activeClassName='is-selected' >
+                            <img className='release-list__cover' src={ prefixLink(`./${ key }.jpg`) } />
                             { title }
                             <Ink />
                         </Link>

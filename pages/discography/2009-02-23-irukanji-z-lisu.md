@@ -1,16 +1,13 @@
 ---
-id: 008
+id: 8
 title: Irukanji «Z Lisu»
 layout: ReleasePage
 category: discography
 path: '/release/irukanji-z-lisu/'
+key: irukanji-z-lisu
 
 meta: Irukanji - Z Lisu by Sentimony Records
 keywords: Z Lisu, Sentimony Records
-
-og-image: releases/irukanji-z-lisus-og.jpg
-
-release-id: irukanji-z-lisu
 
 label: Sentimony Records
 ektoplazm: free-music/irukanji-z-lisu

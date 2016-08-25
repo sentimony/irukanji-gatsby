@@ -1,16 +1,13 @@
 ---
-id: 009
+id: 9
 title: 'VA «Ocean Scenes: Higher Titans»'
 layout: ReleasePage
 category: discography
 path: '/release/va-ocean-scenes-higher-titans/'
+key: va-ocean-scenes-higher-titans
 
 meta: 'VA - Ocean Scenes: Higher Titans by Aqua Deep Music'
 keywords: VA Ocean Scenes Higher Titans, Aqua Deep Music, Sentimony Records
-
-og-image: releases/va-ocean-scenes-higher-titans-og.jpg
-
-release-id: va-ocean-scenes-higher-titans
 
 label: Aqua Deep Music
 ektoplazm: free-music/ocean-scenes-higher-titans

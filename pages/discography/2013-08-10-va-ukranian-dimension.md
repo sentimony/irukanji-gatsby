@@ -1,16 +1,13 @@
 ---
-id: 019
+id: 19
 title: VA «Ukranian Dimension»
 layout: ReleasePage
 category: discography
 path: '/release/va-ukranian-dimension/'
+key: va-ukranian-dimension
 
 meta: VA - Ukranian Dimension by Another Dimension Music
 keywords: VA Ukranian Dimension, Another Dimension Music
-
-og-image: releases/va-ukranian-dimension-og.jpg
-
-release-id: va-ukranian-dimension
 
 label: Another Dimension Music
 ektoplazm: free-music/ukranian-dimension

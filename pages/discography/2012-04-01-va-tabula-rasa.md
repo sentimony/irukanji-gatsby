@@ -1,16 +1,13 @@
 ---
-id: 016
+id: 16
 title: VA «Tabula Rasa»
 layout: ReleasePage
 category: discography
 path: '/release/va-tabula-rasa/'
+key: va-tabula-rasa
 
 meta: VA - Tabula Rasa by Another Dimension Music
 keywords: VA Tabula Rasa, Another Dimension Music
-
-og-image: releases/va-tabula-rasa-og.jpg
-
-release-id: va-tabula-rasa
 
 label: Another Dimension Music
 ektoplazm: 

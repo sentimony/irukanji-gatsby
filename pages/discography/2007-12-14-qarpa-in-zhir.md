@@ -1,16 +1,13 @@
 ---
-id: 004
+id: 4
 title: Qarpa «In Zhir»
 layout: ReleasePage
 category: discography
 path: '/release/qarpa-in-zhir/'
+key: qarpa-in-zhir
 
 meta: Qarpa - In Zhir by ЯОК Music
 keywords: Qarpa, In Zhir, ЯОК Music
-
-og-image: releases/qarpa-in-zhir-og.jpg
-
-release-id: qarpa-in-zhir
 
 label: ЯОК Music
 ektoplazm: 

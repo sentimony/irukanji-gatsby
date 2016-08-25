@@ -1,16 +1,15 @@
 ---
-id: 021
+id: 21
 title: VA «Space Invaders»
 layout: ReleasePage
 category: discography
 path: '/release/va-space-invaders/'
+key: va-space-invaders
 
 meta: VA - Space Invaders by Another Dimension Music
 keywords: VA Space Invaders, Another Dimension Music
 
 og-image: releases/va-space-invaders-og.jpg
-
-release-id: va-space-invaders
 
 label: Another Dimension Music
 ektoplazm: 

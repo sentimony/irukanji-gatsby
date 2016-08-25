@@ -1,16 +1,13 @@
 ---
-id: 002
+id: 2
 title: VA «Emptinesses»
 layout: ReleasePage
 category: discography
 path: '/release/va-emptinesses/'
+key: va-emptinesses
 
 meta: VA - Emptinesses by Sentimony Records
 keywords: VA Emptinesses, Sentimony Records
-
-og-image: releases/va-emptinesses-og.jpg
-
-release-id: va-emptinesses
 
 label: Sentimony Records
 ektoplazm: free-music/emptinesses

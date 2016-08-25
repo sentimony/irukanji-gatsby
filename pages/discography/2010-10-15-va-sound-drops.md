@@ -1,16 +1,13 @@
 ---
-id: 011
+id: 11
 title: VA «Sound Drops»
 layout: ReleasePage
 category: discography
 path: '/release/va-sound-drops/'
+key: va-sound-drops
 
 meta: VA - Sound Drops by Warp Brain Records
 keywords: VA Sound Drops, Warp Brain Records
-
-og-image: releases/va-sound-drops-og.jpg
-
-release-id: va-sound-drops
 
 label: Warp Brain Records
 ektoplazm: 

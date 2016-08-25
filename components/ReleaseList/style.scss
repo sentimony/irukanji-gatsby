@@ -10,7 +10,7 @@
     // background: #ccc;
     list-style: none;
     // padding-right: 20px;
-    padding-left: 20px;
+    // padding-left: 20px;
     box-sizing: border-box;
     // overflow-y: scroll;
     text-align: right;
@@ -67,5 +67,12 @@
                 width: 100%;
             }
         }
+    }
+
+    &__cover {
+        width: 14px;
+        height: auto;
+        float: left;
+        margin-right: 10px;
     }
 }

@@ -1,16 +1,13 @@
 ---
-id: 012
+id: 12
 title: VA «Tempo Syndicate»
 layout: ReleasePage
 category: discography
 path: '/release/va-tempo-syndicate/'
+key: va-tempo-syndicate
 
 meta: VA - Tempo Syndicate by Sentimony Records
 keywords: VA Tempo Syndicate, Sentimony Records
-
-og-image: releases/va-tempo-syndicate-og.jpg
-
-release-id: va-tempo-syndicate
 
 label: Sentimony Records
 ektoplazm: free-music/tempo-syndicate

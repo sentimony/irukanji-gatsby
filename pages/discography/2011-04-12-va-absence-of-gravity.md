@@ -1,16 +1,13 @@
 ---
-id: 014
+id: 14
 title: VA «Absence Of Gravity»
 layout: ReleasePage
 category: discography
 path: '/release/va-absence-of-gravity/'
+key: va-absence-of-gravity
 
 meta: VA - Absence Of Gravity by Sentimony Records
 keywords: VA Absence Of Gravity, Sentimony Records
-
-og-image: releases/va-absence-of-gravity-og.jpg
-
-release-id: va-absence-of-gravity
 
 label: Sentimony Records
 ektoplazm: free-music/absence-of-gravity

@@ -1,16 +1,13 @@
 ---
-id: 005
+id: 5
 title: Sphingida «Origin»
 layout: ReleasePage
 category: discography
 path: '/release/sphingida-origin/'
+key: sphingida-origin
 
 meta: Sphingida - Origin by Sentimony Records
 keywords: Sphingida Origin, Sentimony Records
-
-og-image: releases/sphingida-origin-og.jpg
-
-release-id: sphingida-origin
 
 label: Sentimony Records
 ektoplazm: free-music/sphingida-origin

@@ -1,16 +1,13 @@
 ---
-id: 006
+id: 6
 title: VA «True Story»
 layout: ReleasePage
 category: discography
 path: '/release/va-true-story/'
+key: va-true-story
 
 meta: VA - True Story by Sentimony Records
 keywords: VA True Story, Sentimony Records
-
-og-image: releases/va-true-story-og.jpg
-
-release-id: va-true-story
 
 label: Sentimony Records
 ektoplazm: free-music/true-story

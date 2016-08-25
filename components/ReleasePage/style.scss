@@ -1,29 +1,36 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
-$sidebarWidth: 220px;
+$sidebarWidth: 260px;
 
 .release-page {
-    // padding: 30px 10px;
-    // max-width: 777px;
-    // margin: 0 auto;
-    // text-align: left;
     @include clearfix;
-
-    &__title {
-        float: left;
-        width: 100%;
-    }
 
     &__sidebar {
         overflow: hidden;
         float: left;
         width: $sidebarWidth;
-        // position: fixed;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     &__content {
         float: left;
         width: calc(100% - #{$sidebarWidth});
-        // margin-left: $sidebarWidth;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        // float: left;
+        // width: 100%;
+    }
+
+    &__cover {
+        // float: left;
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 444px;
+        margin-bottom: 30px;
     }
 }

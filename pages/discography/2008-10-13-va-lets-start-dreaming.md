@@ -1,16 +1,13 @@
 ---
-id: 007
+id: 7
 title: VA «Lets Start Dreaming»
 layout: ReleasePage
 category: discography
 path: '/release/va-lets-start-dreaming/'
+key: va-lets-start-dreaming
 
 meta: VA - Lets Start Dreaming by High Hopes Records
 keywords: VA Lets Start Dreaming, High Hopes Records
-
-og-image: releases/va-lets-start-dreaming-og.jpg
-
-release-id: va-lets-start-dreaming
 
 label: High Hopes Records
 ektoplazm: 

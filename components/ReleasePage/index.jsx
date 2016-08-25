@@ -15,12 +15,13 @@ class SitePost extends React.Component {
 
         return (
             <div className='release-page'>
-                <div className='release-page__content'>
-                    <h1 className='release-page__title'>{ post.title }</h1>
-                    <div dangerouslySetInnerHTML={ {    __html: post.body} } />
-                </div>
                 <div className='release-page__sidebar'>
                     <ReleaseList {...this.props} />
+                </div>
+                <div className='release-page__content'>
+                    <h1 className='release-page__title'>{ post.title }</h1>
+                    <img className='release-page__cover' src={ prefixLink(`./${ post.key }.jpg`) } alt={ post.title } />
+                    <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                 </div>
             </div>
         );

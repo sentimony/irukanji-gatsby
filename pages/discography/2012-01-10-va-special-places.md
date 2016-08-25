@@ -1,16 +1,13 @@
 ---
-id: 015
+id: 15
 title: VA «Special Places»
 layout: ReleasePage
 category: discography
 path: '/release/va-special-places/'
+key: va-special-places
 
 meta: VA - Special Places by Sentimony Records
 keywords: VA Special Places, Sentimony Records
-
-og-image: releases/va-special-places-og.jpg
-
-release-id: va-special-places
 
 label: Sentimony Records
 ektoplazm: free-music/special-places

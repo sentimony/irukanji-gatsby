@@ -1,16 +1,13 @@
 ---
-id: 017
+id: 17
 title: Hypnotriod «Seven Heavenly Edges»
 layout: ReleasePage
 category: discography
 path: '/release/hypnotriod-seven-heavenly-edges/'
+key: hypnotriod-seven-heavenly-edges
 
 meta: Hypnotriod - Seven Heavenly Edges by Sentimony Records
 keywords: Hypnotriod, Seven Heavenly Edges, Sentimony Records
-
-og-image: releases/hypnotriod-seven-heavenly-edges-og.jpg
-
-release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records
 ektoplazm: free-music/hypnotriod-seven-heavenly-edges

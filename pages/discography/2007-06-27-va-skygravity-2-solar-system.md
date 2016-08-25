@@ -1,16 +1,13 @@
 ---
-id: 003
+id: 3
 title: 'VA «Skygravity 2: Solar System»'
 layout: ReleasePage
 category: discography
 path: '/release/va-skygravity-2-solar-system/'
+key: va-skygravity-2-solar-system
 
 meta: 'VA - Skygravity: Solar System by Skygravity Records'
 keywords: VA Skygravity 2 Solar System, Skygravity Records
-
-og-image: releases/va-skygravity-2-solar-system-og.jpg
-
-release-id: va-skygravity-2-solar-system
 
 label: Skygravity Records
 ektoplazm: 

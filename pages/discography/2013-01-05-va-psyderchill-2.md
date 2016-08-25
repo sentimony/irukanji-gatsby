@@ -1,16 +1,13 @@
 ---
-id: 018
+id: 18
 title: VA «Psyderchill 2»
 layout: ReleasePage
 category: discography
 path: '/release/va-psyderchill-2/'
+key: va-psyderchill-2
 
 meta: VA - Psyderchill 2 by Psyderweb Records
 keywords: VA Psyderchill 2, Psyderweb Records
-
-og-image: releases/va-psyderchill-2-og.jpg
-
-release-id: va-psyderchill-2
 
 label: Psyderweb Records
 ektoplazm: free-music/psyderchill-2

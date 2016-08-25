@@ -1,16 +1,13 @@
 ---
-id: 013
+id: 13
 title: VA «The Best Electronica In UA»
 layout: ReleasePage
 category: discography
 path: '/release/va-the-best-electronica-in-ua/'
+key: va-the-best-electronica-in-ua
 
 meta: VA - The Best Electronica In UA by CTS Records
 keywords: VA The Best Electronica In UA, CTS Records
-
-og-image: releases/va-the-best-electronica-in-ua-og.jpg
-
-release-id: va-the-best-electronica-in-ua
 
 label: CTS Records
 ektoplazm: 
