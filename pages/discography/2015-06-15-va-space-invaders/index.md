@@ -9,8 +9,6 @@ key: va-space-invaders
 meta: VA - Space Invaders by Another Dimension Music
 keywords: VA Space Invaders, Another Dimension Music
 
-og-image: releases/va-space-invaders-og.jpg
-
 label: Another Dimension Music
 ektoplazm: 
 label-link: anotherdimension.com.ua/releases/admcd006

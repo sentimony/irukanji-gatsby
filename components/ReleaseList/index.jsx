@@ -21,7 +21,7 @@ class MixinList extends React.Component {
                 pageLinks.push(
                     <li key={ key }>
                         <Link to={ prefixLink(page.path) } className='release-list__link' activeClassName='is-selected' >
-                            <img className='release-list__cover' src={ prefixLink(`./${ key }.jpg`) } />
+                            <img className='release-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
                             { title }
                             <Ink />
                         </Link>

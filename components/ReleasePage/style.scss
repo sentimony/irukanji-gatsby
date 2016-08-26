@@ -1,15 +1,17 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
 $sidebarWidth: 260px;
+$gridIndent: 20px;
 
 .release-page {
     @include clearfix;
+    margin: 0 -#{$gridIndent};
 
     &__sidebar {
         overflow: hidden;
         float: left;
         width: $sidebarWidth;
-        padding: 0 20px;
+        padding: 0 $gridIndent;
         box-sizing: border-box;
     }
 
@@ -30,7 +32,7 @@ $sidebarWidth: 260px;
         width: 100%;
         height: auto;
         display: block;
-        max-width: 444px;
-        margin-bottom: 30px;
+        max-width: 333px;
+        margin-bottom: 20px;
     }
 }

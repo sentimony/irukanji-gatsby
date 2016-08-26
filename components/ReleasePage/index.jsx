@@ -20,7 +20,7 @@ class SitePost extends React.Component {
                 </div>
                 <div className='release-page__content'>
                     <h1 className='release-page__title'>{ post.title }</h1>
-                    <img className='release-page__cover' src={ prefixLink(`./${ post.key }.jpg`) } alt={ post.title } />
+                    <img className='release-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                 </div>
             </div>
