@@ -1,4 +1,9 @@
 {
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irukanji-music.github.io"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "npm run clean & gatsby build",
@@ -17,9 +22,9 @@
     "coriolan-ui": "^0.1.14",
     "front-matter": "^2.0.8",
     "gatsby": "^0.12.1",
-    "history": "^2.1.1",
+    "history": "^2.1.2",
     "lodash": "^4.12.0",
-    "markdown-it": "^6.0.2",
+    "markdown-it": "^7.0.1",
     "moment": "^2.12.0",
     "react-document-title": "^2.0.1",
     "react-google-analytics": "^0.2.0",
@@ -33,14 +38,14 @@
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-preset-react-hmre": "^1.1.1",
-    "eslint": "^2.9.0",
-    "eslint-config-airbnb": "^9.0.1",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.8.0",
-    "eslint-plugin-jsx-a11y": "^1.2.0",
-    "eslint-plugin-react": "^5.1.1",
-    "file-loader": "^0.8.5",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.2.0",
+    "file-loader": "^0.9.0",
     "image-webpack-loader": "^2.0.0",
-    "lost": "^6.7.2",
+    "lost": "^7.0.4",
     "rucksack-css": "^0.8.5"
   }
 }
