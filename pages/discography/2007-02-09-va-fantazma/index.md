@@ -3,7 +3,7 @@ id: 1
 title: VA «Fantazma»
 layout: ReleasePage
 category: discography
-path: '/release/va-fantazma/'
+path: '/release/va-fantazma1/'
 key: va-fantazma
 
 meta: VA - Fantazma by Sentimony Records
