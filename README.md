@@ -1,8 +1,8 @@
-# Site of Irk on Gatsby
+# Site of Irukanji on Gatsby
 
 ### Psychedelic Electronica
 
-Web development of Irk site
+Web development of Irukanji site
 
 ### Run
 
