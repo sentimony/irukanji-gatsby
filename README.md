@@ -6,9 +6,9 @@ Web development of Irukanji site
 
 ### Run
 
-`npm i`
+    npm i
 
-`gatsby develop`
+    gatsby develop
 
 ### Build
 
