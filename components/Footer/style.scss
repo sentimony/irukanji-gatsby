@@ -4,75 +4,74 @@
 .footer {
     padding: 40px 10px;
     background: #222;
-    // color: #000;
     position: relative;
 
     &__copyright {
-        // font-family: 'PT Sans', sans-serif;
-        // color: #ef4030;
-        // text-transform: uppercase;
-        // letter-spacing: 4px;
-        // font-size: 13px;
         margin-bottom: 20px;
     }
 
     &__powered {
-        // font-family: 'PT Sans', sans-serif;
-        // color: rgba(#fff,.5);
-        // text-transform: uppercase;
         letter-spacing: 2.5px;
         font-size: 10px;
-        // letter-spacing: 2px;
+        line-height: 2.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @include media(M) {
+            flex-direction: row;
+        }
+
+        &-development {
+            padding: 0 4px;
+        }
 
         &-link {
             color: #8ff;
             text-decoration: none;
-            // padding: 3px 0;
-            padding: 0 0 2px;
-            cursor: pointer;
-            margin-left: 8px;
-            // position: relative;
-            display: inline-block;
-        }
-
-        &-svg {
-            display: inline-block;
-            width: auto;
-            height: 24px;
-            margin-right: 8px;
-            vertical-align: middle;
-        }
-
-        &-fx {
-            position: relative;
             padding: 0 4px;
+            cursor: pointer;
+            display: inline-block;
 
-            &:before,
-            &:after {
-                content: '';
-                position: absolute;
-                background: #8ff;
-                transition: left .25s ease;
-                right: 0;
-                height: 1px;
+            &-svg {
+                display: inline-block;
+                width: auto;
+                height: 24px;
+                margin-right: 8px;
+                vertical-align: middle;
             }
 
-            &:before {
-                top: 0;
-                left: 100%;
-            }
+            &-text {
+                position: relative;
+                padding: 0 4px;
 
-            &:after {
-                bottom: -2px;
-                left: 0;
-            }
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background: #8ff;
+                    transition: left .25s ease;
+                    right: 0;
+                    height: 1px;
+                }
 
-            .footer__powered-link:hover &:before {
-                left: 0;
-            }
+                &:before {
+                    top: 0;
+                    left: 100%;
+                }
 
-            .footer__powered-link:hover &:after {
-                left: 100%;
+                &:after {
+                    bottom: -2px;
+                    left: 0;
+                }
+
+                .footer__powered-link:hover &:before {
+                    left: 0;
+                }
+
+                .footer__powered-link:hover &:after {
+                    left: 100%;
+                }
             }
         }
     }

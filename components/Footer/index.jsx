@@ -7,28 +7,19 @@ import iconEagle from '../../static/img/svg-icons/native-american-eagle.svg'
 
 class Footer extends React.Component {
     render() {
-        const {location} = this.props
-        const {route} = this.props
-        const page = route.page.data
-
         return (
             <div className='footer'>
-                <div className='footer__copyright'>2008 - 2016 © { config.siteTitle }</div>
+                <div className='footer__copyright'>2008 - 2017 © { config.siteTitle }</div>
                 <div className='footer__powered'>
-                    Web development by
+                    <span className='footer__powered-development'>Web development by</span>
                     <a href={ config.poweredUrl } className='footer__powered-link' target='_blank'>
-                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
-                        <span className='footer__powered-fx'>{ config.poweredTitle }</span>
+                        <img className='footer__powered-link-svg' src={ prefixLink(iconEagle) }/>
+                        <span className='footer__powered-link-text'>{ config.poweredTitle }</span>
                     </a>
                 </div>
             </div>
         );
     }
-}
-
-Footer.propTypes = {
-    location: React.PropTypes.object,
-    page: React.PropTypes.object,
 }
 
 export default Footer
