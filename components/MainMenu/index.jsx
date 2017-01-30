@@ -35,7 +35,7 @@ class MainMenu extends React.Component {
                         <Ink />
                     </Link> 
 
-                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll' className='mainmenu__link' target='_blank'>
+                    <a href='http://irukanji-music.github.io/irukanji-music-jekyll' className='mainmenu__link' target='_blank' style={{display:'none'}}>
                         <img className='mainmenu__link-svg' src={ prefixLink(logoIrkOld) }/>
                         <span className='mainmenu__link-name'>Old Site</span>
                     </a>
