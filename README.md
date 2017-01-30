@@ -1,27 +1,25 @@
-# Site of Irukanji on Gatsby
+# irukanji-music.github.io
 
-### Psychedelic Electronica
-
-Web development of Irukanji site
-
-### Run
-
-    npm i
-
-    gatsby develop
-
-### Build
-
-`gatsby build` (or `gatsby build --prefix-links`)
-
-After that just copy all from 'build' folder into root of `master` (or `gh-pages`) branch and push.
+_Web development of Irukanji site_
 
 ### Used
 
-JavaScript library - [ReactJS](https://facebook.github.io/react)
+[Gatsby](https://github.com/gatsbyjs/gatsby) - static site generator based on [ReactJS](https://facebook.github.io/react)
 
-Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
+[Webpack](https://webpack.github.io) - build system
 
-Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
+[Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+[GitHub Pages](https://pages.github.com) - free hosting
+
+### Run
+
+`npm i`
+
+`npm run develop`
+
+### Deploy
+
+`npm run deploy`
+
+#### Have fun! :)
