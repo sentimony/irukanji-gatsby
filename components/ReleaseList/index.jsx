@@ -7,7 +7,7 @@ import Ink from 'react-ink'
 
 import './style.scss'
 
-class MixinList extends React.Component {
+class ReleaseList extends React.Component {
     render() {
         const pageLinks = []
 
@@ -19,27 +19,25 @@ class MixinList extends React.Component {
                 const title = access(page, 'data.title') || page.path
 
                 pageLinks.push(
-                    <li key={ key }>
-                        <Link to={ prefixLink(page.path) } className='release-list__link' activeClassName='is-selected' >
-                            <img className='release-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
-                            { title }
-                            <Ink />
-                        </Link>
-                    </li>
+                    <Link to={ prefixLink(page.path) } className='release-list__link' key={ key } activeClassName='is-selected' >
+                        <img className='release-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
+                        <div className='release-list__title'>{ title }</div>
+                        <Ink />
+                    </Link>
                 )
             }
         })
 
         return (
-            <ul className='release-list'>
+            <div className='release-list'>
                 { pageLinks }
-            </ul>
+            </div>
         );
     }
 }
 
-MixinList.propTypes = {
+ReleaseList.propTypes = {
     route: React.PropTypes.object,
 }
 
-export default MixinList
+export default ReleaseList
