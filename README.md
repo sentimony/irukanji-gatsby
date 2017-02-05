@@ -1,4 +1,4 @@
-# irukanji-music.github.io
+# irukanji-gatsby
 
 _Web development of Irukanji site_
 
@@ -10,16 +10,12 @@ _Web development of Irukanji site_
 
 [Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
 
-[GitHub Pages](https://pages.github.com) - free hosting
+[Netlify](https://www.netlify.com) - deploy & free hosting platform
 
 ### Run
 
 `npm i`
 
 `npm run develop`
-
-### Deploy
-
-`npm run deploy`
 
 #### Have fun! :)
