@@ -1,0 +1,62 @@
+@import '../../node_modules/coriolan-ui/tools/variables';
+@import '../../node_modules/coriolan-ui/mixins/media';
+@import '../../node_modules/coriolan-ui/mixins/clearfix';
+
+.homepage {
+    text-align: center;
+    padding: 20px 0;
+    // background-position: top center;
+    // background-repeat: no-repeat;
+    // background-image: url(bgPlane.jpg);
+    // background-image: url(bgManufactory.jpg);
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-color: #3c291d;
+
+    &__logo {
+        position: relative;
+        margin: 0 auto 20px;
+        display: block;
+        text-decoration: none;
+        outline: none;
+        padding: 12px;
+        // max-width: 240px;
+        // width: 100%;
+        width: 200px;
+        height: auto;
+        padding: 0;
+        // padding: 0 20px;
+        // box-sizing: border-box;
+    }
+
+    &__title {
+        // font-family: 'Montserrat', sans-serif;
+        font-family: monospace;
+        letter-spacing: .1em;
+        // color: #373737;
+        margin: 0 0 10px;
+        // padding: 0 10px;
+        font-size: 42px;
+        // max-width: 1000px;
+        // font-weight: 400;
+
+        // @include media(S) {
+        //     font-size: 36px;
+        // }
+
+        // @include media(L) {
+        //     font-size: 46px;
+        // }
+    }
+
+    &__description {
+        // text-transform: uppercase;
+        // font-weight: 400;
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: .2em;
+        // color: #9f9f9f;
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+    }
+}
