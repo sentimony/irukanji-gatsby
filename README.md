@@ -1,12 +1,10 @@
 # irukanji-gatsby
 
-_Web development of Irukanji site_
+_Web development of Irukanji site on GatsbyJS_
 
 ### Used
 
-[Gatsby](https://github.com/gatsbyjs/gatsby) - static site generator based on [ReactJS](https://facebook.github.io/react)
-
-[Webpack](https://webpack.github.io) - build system
+[GatsbyJS](https://github.com/gatsbyjs/gatsby) - static site generator based on [ReactJS](https://facebook.github.io/react)
 
 [Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
 
