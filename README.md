@@ -14,6 +14,6 @@ _Web development of Irukanji site on GatsbyJS_
 
 `npm i`
 
-`npm run develop`
+`npm run dev`
 
 #### Have fun! :)
