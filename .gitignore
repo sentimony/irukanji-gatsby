@@ -3,3 +3,6 @@ public
 
 .gatsby-context.js
 pages/.manifest
+
+# Local Netlify folder
+.netlify
